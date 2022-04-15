@@ -231,7 +231,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┃⬡ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
 ┃⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ┃⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-┃⬡ スパムしないでください
+┃⬡ YT : https://youtu.be/_HmhBUN7B-4
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
